@@ -1,10 +1,10 @@
-/********************************************************************************\
+/******************************************************************************\
  * Curso de Programación 1. Tema 9 (vectores)
  * Autores: Miguel Ángel Latre
  * Última revisión: 25 de octubre de 2019
- * Resumen: Código de ejemplo de cómo podría utilizarse una matriz en el juego de
- *          los barcos.
-\********************************************************************************/
+ * Resumen: Código de ejemplo de cómo podría utilizarse una matriz en el juego 
+ *          de los barcos.
+\******************************************************************************/
 #include <iostream>
 using namespace std;
 
