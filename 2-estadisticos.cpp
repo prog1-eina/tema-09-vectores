@@ -15,9 +15,9 @@ using namespace std;
  * Post: Ha devuelto el valor medio de los valores almacenados en las
  *       componentes de «t».
  */
-double media(const double t[], const int n) {
+double media(const double t[], const unsigned int n) {
     double suma = 0.0;
-    for (int i = 0; i < n; i++) {
+    for (unsigned int i = 0; i < n; i++) {
         suma += t[i];
     }
     return suma / n;
@@ -29,10 +29,10 @@ double media(const double t[], const int n) {
  * Post: Ha devuelto la desviación típica de los
  *       valores almacenadas en «t»
  */
-double desviacionTipica(const double t[], const int n) {
+double desviacionTipica(const double t[], const unsigned int n) {
     double mediaAritmetica = media(t, n);
     double suma = 0.0;
-    for (int i = 0; i < n; i++) {
+    for (unsigned int i = 0; i < n; i++) {
         suma += pow(t[i] - mediaAritmetica, 2);
     }
     return sqrt(suma / (n - 1));
@@ -44,9 +44,9 @@ double desviacionTipica(const double t[], const int n) {
  * Post: Ha devuelto la valor máximo almacenado en
  *       las componentes de la tabla «t».
  */
-double maximo(const double t[], const int n) {
+double maximo(const double t[], const unsigned int n) {
    double maximo = t[0];
-   for (int i = 1; i < n; i++) {
+   for (unsigned int i = 1; i < n; i++) {
       if (t[i] > maximo) {
          maximo = t[i];
       }
@@ -58,11 +58,11 @@ double maximo(const double t[], const int n) {
  * Programa que, a modo de ejemplo, invoca a las tres funciones anteriores.
  */
 int main() {
-    const int NUM_DATOS = 11;
+    const unsigned int NUM_DATOS = 11;
     double vector[NUM_DATOS] = {47.9, 55, 1, 76.3, 92, 250, 79, 56.1, 50, 80, 2};
     
     cout << "El vector es {";
-    for (int i = 0; i < NUM_DATOS - 1; i++) {
+    for (unsigned int i = 0; i < NUM_DATOS - 1; i++) {
         cout << vector[i] << ", ";
     }
     cout << vector[NUM_DATOS - 1] << "};" << endl;

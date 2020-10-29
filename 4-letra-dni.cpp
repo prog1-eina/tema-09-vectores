@@ -12,8 +12,8 @@ using namespace std;
  * Post: Ha devuelto la letra del DNI que corresponde a un número de DNI igual 
  *       al valor del parámetro «dni».
  */
-char letra(const int dni) {
-    const int NUM_LETRAS = 23;
+char letra(const unsigned int dni) {
+    const unsigned int NUM_LETRAS = 23;
     const char TABLA_LETRAS_NIF[NUM_LETRAS] = {'T', 'R', 'W', 'A', 'G', 'M', 
             'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 
             'L', 'C', 'K', 'E'};
@@ -26,7 +26,7 @@ char letra(const int dni) {
  */
 int main() {
     cout << "Escriba su DNI: ";
-    int dni;
+    unsigned int dni;
     cin >> dni;
     
     cout << "Su letra es " << letra(dni) << '.' << endl;

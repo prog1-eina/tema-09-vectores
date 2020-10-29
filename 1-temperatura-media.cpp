@@ -13,7 +13,7 @@ using namespace std;
  * Número de meses que tiene un año (y por tanto, número de componentes que 
  * tiene un vector de temperaturas medias mensuales).
  */
-const int NUM_MESES = 12;
+const unsigned int NUM_MESES = 12;
 
 
 /*
@@ -24,7 +24,7 @@ const int NUM_MESES = 12;
  */ 
 double temperaturaMediaAnual(const double t[]) {
     double sumaTemperaturas = 0.0;
-    for (int i = 0; i < NUM_MESES; i++) {
+    for (unsigned int i = 0; i < NUM_MESES; i++) {
         sumaTemperaturas += t[i];
     }
     return sumaTemperaturas / NUM_MESES;
@@ -41,7 +41,7 @@ int main() {
     double temperaturas[NUM_MESES];
     
     // Petición al usuario de las 12 temperaturas medias mensuales
-    for (int i = 0; i < NUM_MESES; i++) {
+    for (unsigned int i = 0; i < NUM_MESES; i++) {
         cout << "Escriba la temperatura del mes " << i + 1 << ": ";
         cin >> temperaturas[i];
     }

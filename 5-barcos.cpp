@@ -8,8 +8,8 @@
 #include <iostream>
 using namespace std;
 
-const int NUM_FILAS = 8;
-const int NUM_COLUMNAS = 8;
+const unsigned int NUM_FILAS = 8;
+const unsigned int NUM_COLUMNAS = 8;
 const bool AGUA = false;
 const bool BARCO = true;
 
@@ -21,8 +21,8 @@ const bool BARCO = true;
 int main() {
     bool tablero[NUM_FILAS][NUM_COLUMNAS];
 
-    for(int i = 0; i < NUM_FILAS; i++) {
-        for (int j = 0; j < NUM_COLUMNAS; j++) {
+    for(unsigned int i = 0; i < NUM_FILAS; i++) {
+        for (unsigned int j = 0; j < NUM_COLUMNAS; j++) {
             tablero[i][j] = AGUA;
         }
     }
