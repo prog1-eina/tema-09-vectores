@@ -45,13 +45,13 @@ double desviacionTipica(const double t[], const unsigned int n) {
  *       las componentes de la tabla «t».
  */
 double maximo(const double t[], const unsigned int n) {
-   double maximo = t[0];
-   for (unsigned int i = 1; i < n; i++) {
-      if (t[i] > maximo) {
-         maximo = t[i];
-      }
-   }
-   return maximo;
+    double maximo = t[0];
+    for (unsigned int i = 1; i < n; i++) {
+        if (t[i] > maximo) {
+            maximo = t[i];
+        }
+    }
+    return maximo;
 }
 
 /*
