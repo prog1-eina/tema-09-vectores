@@ -1,7 +1,7 @@
 /******************************************************************************\
  * Curso de Programación 1. Tema 9 (vectores)
  * Autores: Miguel Ángel Latre
- * Última revisión: 28 de octubre de 2019
+ * Última revisión: 29 de octubre de 2020
  * Resumen: Funciones que, dado un vector, calculan tres estadísticos: media, 
  *          desviación típica y máximo.
 \******************************************************************************/

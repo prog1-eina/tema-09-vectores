@@ -1,7 +1,7 @@
 /******************************************************************************\
  * Curso de Programación 1. Tema 9 (vectores)
  * Autores: Miguel Ángel Latre y Javier Martínez
- * Última revisión: 25 de octubre de 2019
+ * Última revisión: 29 de octubre de 2020
  * Resumen: Función que utiliza un vector para calcular la letra del DNI.
 \******************************************************************************/
 #include <iostream>

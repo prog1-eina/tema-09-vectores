@@ -1,7 +1,7 @@
 /******************************************************************************\
  * Curso de Programación 1. Tema 9 (vectores)
  * Autores: Miguel Ángel Latre
- * Última revisión: 25 de octubre de 2019
+ * Última revisión: 29 de octubre de 2020
  * Resumen: Código de ejemplo de cómo podría utilizarse una matriz en el juego 
  *          de los barcos.
 \******************************************************************************/
