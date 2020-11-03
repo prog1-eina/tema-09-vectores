@@ -19,13 +19,7 @@ const bool BARCO = true;
  * juego de los barcos.
  */
 int main() {
-    bool tablero[NUM_FILAS][NUM_COLUMNAS];
-
-    for(unsigned int i = 0; i < NUM_FILAS; i++) {
-        for (unsigned int j = 0; j < NUM_COLUMNAS; j++) {
-            tablero[i][j] = AGUA;
-        }
-    }
+    bool tablero[NUM_FILAS][NUM_COLUMNAS] = {{AGUA}};
 
     // Colocación de un barco en las casillas
     // E3, F3, G3 y H3
