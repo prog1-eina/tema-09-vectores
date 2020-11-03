@@ -10,9 +10,9 @@ using namespace std;
 
 
 /*
- * Pre:  «t» tiene «n» componentes.
+ * Pre:  «t» tiene al menos «n» componentes.
  * Post: Ha devuelto el valor medio de los valores almacenados en las
- *       componentes de «t».
+ *       «n» primeras componentes de «t».
  */
 double media(const double t[], const unsigned int n) {
     double suma = 0.0;
