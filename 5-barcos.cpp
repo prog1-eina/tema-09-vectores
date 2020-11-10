@@ -5,8 +5,6 @@
  * Resumen: Código de ejemplo de cómo podría utilizarse una matriz en el juego 
  *          de los barcos.
 \******************************************************************************/
-#include <iostream>
-using namespace std;
 
 const unsigned int NUM_FILAS = 8;
 const unsigned int NUM_COLUMNAS = 8;
