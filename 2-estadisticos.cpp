@@ -11,7 +11,7 @@ using namespace std;
 
 
 /*
- * Pre:  «t» tiene «n» componentes.
+ * Pre:  «t» tiene «n» componentes y «n» > 0.
  * Post: Ha devuelto el valor medio de los valores almacenados en las
  *       componentes de «t».
  */
@@ -25,7 +25,7 @@ double media(const double t[], const unsigned int n) {
 
 
 /*
- * Pre:  «t» tiene «n» componentes.
+ * Pre:  «t» tiene «n» componentes y «n» > 1.
  * Post: Ha devuelto la desviación típica de los
  *       valores almacenadas en «t»
  */
@@ -40,7 +40,7 @@ double desviacionTipica(const double t[], const unsigned int n) {
 
 
 /*
- * Pre:  «t» tiene «n» componentes.
+ * Pre:  «t» tiene «n» componentes y «n» > 0.
  * Post: Ha devuelto la valor máximo almacenado en
  *       las componentes de la tabla «t».
  */

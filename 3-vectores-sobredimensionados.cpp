@@ -10,7 +10,7 @@ using namespace std;
 
 
 /*
- * Pre:  «t» tiene al menos «n» componentes.
+ * Pre:  «t» tiene al menos «n» componentes y «n» > 0.
  * Post: Ha devuelto el valor medio de los valores almacenados en las
  *       «n» primeras componentes de «t».
  */
