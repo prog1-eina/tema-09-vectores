@@ -1,7 +1,7 @@
 /******************************************************************************\
  * Curso de Programación 1. Tema 9 (vectores)
  * Autores: Miguel Ángel Latre y Javier Martínez
- * Última revisión: 29 de octubre de 2020
+ * Última revisión: 22 de octubre de 2021
  * Resumen: Función que utiliza un vector para calcular la letra del DNI.
 \******************************************************************************/
 #include <iostream>
@@ -12,8 +12,8 @@ using namespace std;
  * Post: Ha devuelto la letra del DNI que corresponde a un número de DNI igual 
  *       al valor del parámetro «dni».
  */
-char letra(const unsigned int dni) {
-    const unsigned int NUM_LETRAS = 23;
+char letra(const unsigned dni) {
+    const unsigned NUM_LETRAS = 23;
     const char TABLA_LETRAS_NIF[NUM_LETRAS] = {'T', 'R', 'W', 'A', 'G', 'M', 
             'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 
             'L', 'C', 'K', 'E'};
@@ -26,7 +26,7 @@ char letra(const unsigned int dni) {
  */
 int main() {
     cout << "Escriba su DNI: ";
-    unsigned int dni;
+    unsigned dni;
     cin >> dni;
     
     cout << "Su letra es " << letra(dni) << '.' << endl;
