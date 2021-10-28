@@ -1,13 +1,13 @@
 /******************************************************************************\
  * Curso de Programación 1. Tema 9 (vectores)
  * Autores: Miguel Ángel Latre
- * Última revisión: 29 de octubre de 2020
+ * Última revisión: 22 de octubre de 2021
  * Resumen: Código de ejemplo de cómo podría utilizarse una matriz en el juego 
  *          de los barcos.
 \******************************************************************************/
 
-const unsigned int NUM_FILAS = 8;
-const unsigned int NUM_COLUMNAS = 8;
+const unsigned NUM_FILAS = 8;
+const unsigned NUM_COLUMNAS = 8;
 const bool AGUA = false;
 const bool BARCO = true;
 
