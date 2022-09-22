@@ -23,7 +23,17 @@
                 "isDefault": true
             },
             "detail": "Generated task by Debugger"
-        }
+        },
+        {
+            "type": "shell",
+            "label": "Ejecutar fichero activo en el editor",
+            "command": "./${fileBasenameNoExtension}",
+            "windows": {
+                "command": "chcp 65001 ; .\\${fileBasenameNoExtension}.exe"
+            },
+            "dependsOn": "Compilar fichero activo en el editor",
+            "problemMatcher": []
+        },
     ],
     "presentation": {
         "showReuseMessage": true,
