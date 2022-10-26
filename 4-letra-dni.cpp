@@ -34,7 +34,7 @@ char letra(const unsigned dni) {
  * en la pantalla su letra.
  */
 int main() {
-    cout << "Escriba su DNI: ";
+    cout << "Escriba su DNI sin letra: ";
     unsigned dni;
     cin >> dni;
     
