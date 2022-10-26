@@ -3,6 +3,15 @@
  * Autores: Miguel Ángel Latre y Javier Martínez
  * Última revisión: 22 de octubre de 2021
  * Resumen: Función que utiliza un vector para calcular la letra del DNI.
+ * Nota: El programa completo está contenido en este fichero, por lo que puede 
+ *       compilarse y ejecutarse con la extensión Code Runner de Visual Studio 
+ *       Code.
+ *       También puede compilarse desde la terminal través de la orden
+ *           g++ -Wall -Wextra 4-letra-dni.cpp -o 4-letra-dni
+ *       y ejecutarse en Windows a través de la orden
+ *           .\4-letra-dni.exe
+ *       o en Linux y macOS
+ *           ./4-letra-dni
 \******************************************************************************/
 #include <iostream>
 using namespace std;
