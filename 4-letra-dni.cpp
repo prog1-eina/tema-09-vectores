@@ -1,7 +1,7 @@
 /******************************************************************************\
  * Curso de Programación 1. Tema 9 (vectores)
  * Autores: Miguel Ángel Latre y Javier Martínez
- * Última revisión: 22 de octubre de 2021
+ * Última revisión: 26 de octubre de 2022
  * Resumen: Función que utiliza un vector para calcular la letra del DNI.
  * Nota: El programa completo está contenido en este fichero, por lo que puede 
  *       compilarse y ejecutarse con la extensión Code Runner de Visual Studio 
@@ -18,7 +18,7 @@ using namespace std;
 
 /*
  * Pre:  dni > 0
- * Post: Ha devuelto la letra del DNI que corresponde a un número de DNI igual 
+ * Post: Devuelve la letra del DNI que corresponde a un número de DNI igual 
  *       al valor del parámetro «dni».
  */
 char letra(const unsigned dni) {

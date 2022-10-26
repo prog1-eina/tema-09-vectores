@@ -1,7 +1,7 @@
 /******************************************************************************\
  * Curso de Programación 1. Tema 9 (vectores)
  * Autores: Miguel Ángel Latre
- * Última revisión: 22 de octubre de 2021
+ * Última revisión: 26 de octubre de 2022
  * Resumen: Ejemplo de función que trabaja con vectores sobredimensionados.
  * Nota: El programa completo está contenido en este fichero, por lo que puede 
  *       compilarse y ejecutarse con la extensión Code Runner de Visual Studio 
@@ -20,7 +20,7 @@ using namespace std;
 
 /*
  * Pre:  «t» tiene al menos «n» componentes y «n» > 0.
- * Post: Ha devuelto el valor medio de los valores almacenados en las
+ * Post: Devuelve el valor medio de los valores almacenados en las
  *       «n» primeras componentes de «t».
  */
 double media(const double t[], const unsigned n) {

@@ -1,7 +1,7 @@
 /******************************************************************************\
  * Curso de Programación 1. Tema 9 (vectores)
  * Autores: Miguel Ángel Latre
- * Última revisión: 22 de octubre de 2021
+ * Última revisión: 26 de octubre de 2022
  * Resumen: Ejemplo de programa y función que utilizan un vector de datos de 
  *          tipo real para calcular la media de temperatura anual a partir de  
  *          doce temperaturas medias mensuales.
@@ -28,7 +28,7 @@ const unsigned NUM_MESES = 12;
 /*
  * Pre:  El vector «t» tiene «NUM_MESES» componentes que representan 
  *       temperaturas.
- * Post: Ha devuelto la temperatura media de las temperaturas almacenadas en 
+ * Post: Devuelve la temperatura media de las temperaturas almacenadas en 
  *       «t».
  */ 
 double temperaturaMediaAnual(const double t[]) {
