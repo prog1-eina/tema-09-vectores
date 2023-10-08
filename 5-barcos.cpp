@@ -4,15 +4,15 @@
  * Última revisión: 26 de octubre de 2022
  * Resumen: Código de ejemplo de cómo podría utilizarse una matriz en el juego 
  *          de los barcos.
- * Nota: El programa completo está contenido en este fichero, por lo que puede 
- *       compilarse y ejecutarse con la extensión Code Runner de Visual Studio 
- *       Code.
- *       También puede compilarse desde la terminal través de la orden
- *           g++ -Wall -Wextra 5-barcos.cpp -o 5-barcos
- *       y ejecutarse en Windows a través de la orden
- *           .\5-barcos.exe
- *       o en Linux y macOS
- *           ./5-barcos
+ * Nota: El programa completo está contenido en este fichero, por lo que puede 
+ *       compilarse y ejecutarse con la extensión Code Runner de Visual Studio 
+ *       Code.
+ *       También puede compilarse desde la terminal través de la orden
+ *           g++ -Wall -Wextra 5-barcos.cpp -o 5-barcos
+ *       y ejecutarse en Windows a través de la orden
+ *           .\5-barcos.exe
+ *       o en Linux y macOS
+ *           ./5-barcos
 \******************************************************************************/
 
 const unsigned NUM_FILAS = 8;

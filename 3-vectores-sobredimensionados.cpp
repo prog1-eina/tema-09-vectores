@@ -3,15 +3,15 @@
  * Autores: Miguel Ángel Latre
  * Última revisión: 26 de octubre de 2022
  * Resumen: Ejemplo de función que trabaja con vectores sobredimensionados.
- * Nota: El programa completo está contenido en este fichero, por lo que puede 
- *       compilarse y ejecutarse con la extensión Code Runner de Visual Studio 
- *       Code.
- *       También puede compilarse desde la terminal través de la orden
- *           g++ -Wall -Wextra 3-vectores-sobredimensionados.cpp -o 3-vectores-sobredimensionados
- *       y ejecutarse en Windows a través de la orden
- *           .\3-vectores-sobredimensionados.exe
- *       o en Linux y macOS
- *           ./3-vectores-sobredimensionados
+ * Nota: El programa completo está contenido en este fichero, por lo que puede 
+ *       compilarse y ejecutarse con la extensión Code Runner de Visual Studio 
+ *       Code.
+ *       También puede compilarse desde la terminal través de la orden
+ *           g++ -Wall -Wextra 3-vectores-sobredimensionados.cpp -o 3-vectores-sobredimensionados
+ *       y ejecutarse en Windows a través de la orden
+ *           .\3-vectores-sobredimensionados.exe
+ *       o en Linux y macOS
+ *           ./3-vectores-sobredimensionados
 \******************************************************************************/
 #include <iostream>
 #include <cmath>
