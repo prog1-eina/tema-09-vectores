@@ -39,7 +39,7 @@ void unidad(double matriz[][DIM]) {
  * Pre:  «matriz» es una matriz cuadrada de DIM x DIM.
  * Post: Escribe en la pantalla las componentes de «matriz».
  */
-void escribir(double matriz[][DIM]) {
+void escribir(const double matriz[][DIM]) {
     cout << fixed << setprecision(1);
     for (unsigned i = 0; i < DIM; i++) {
         cout << "[";
