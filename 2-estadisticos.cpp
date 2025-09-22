@@ -1,4 +1,4 @@
-/******************************************************************************\
+/******************************************************************************
  * Curso de Programación 1. Tema 9 (vectores)
  * Autores: Miguel Ángel Latre
  * Última revisión: 26 de octubre de 2022
@@ -13,7 +13,7 @@
  *           .\2-estadisticos.exe
  *       o en Linux y macOS
  *           ./2-estadisticos
-\******************************************************************************/
+ *****************************************************************************/
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -67,7 +67,8 @@ double maximo(const double t[], const unsigned n) {
  */
 int main() {
     const unsigned NUM_DATOS = 11;
-    double vector[NUM_DATOS] = {47.9, 55, 1, 76.3, 92, 250, 79, 56.1, 50, 80, 2};
+    double vector[NUM_DATOS] = {47.9, 55, 1, 76.3, 92,
+                                250, 79, 56.1, 50, 80, 2};
     
     cout << "El vector es {";
     for (unsigned i = 0; i < NUM_DATOS - 1; i++) {

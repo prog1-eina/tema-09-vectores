@@ -1,4 +1,4 @@
-/******************************************************************************\
+/******************************************************************************
  * Curso de Programación 1. Tema 9 (vectores)
  * Autores: Miguel Ángel Latre
  * Última revisión: 26 de octubre de 2022
@@ -12,7 +12,7 @@
  *           .\3-vectores-sobredimensionados.exe
  *       o en Linux y macOS
  *           ./3-vectores-sobredimensionados
-\******************************************************************************/
+ *****************************************************************************/
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -33,17 +33,13 @@ double media(const double t[], const unsigned n) {
 
 
 /*
- * Programa que, a modo de ejemplo, invoca a la función anterior utilizando como
- * argumento el mismo vector, pero especificando distintos números de 
- * componentes siempre menores o iguales que la dimensión real del vector.
+ * Programa que, a modo de ejemplo, invoca la función anterior usando como
+ * argumento el mismo vector, pero especificando distintos números de
+ * componentes, siempre menores o iguales que la dimensión real del vector.
  */
 int main() {
     const unsigned NUM_DATOS = 7;
     double vector[NUM_DATOS] = {47.9, 55, 1, 76.3, 92, 250, 79};
    
     cout << "Media de los 3 primeros datos: " << media(vector, 3) << endl;
-    cout << "Media de los 4 primeros datos: " << media(vector, 4) << endl;        
-    cout << "Media de todos los datos: " << media(vector, NUM_DATOS) << endl;        
-        
-    return 0;
-}
+    cout << "Media de los 4 primeros datos: " << media(vector, 4) << endl;

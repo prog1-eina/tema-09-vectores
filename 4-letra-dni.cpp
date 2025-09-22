@@ -1,4 +1,4 @@
-/******************************************************************************\
+/******************************************************************************
  * Curso de Programación 1. Tema 9 (vectores)
  * Autores: Miguel Ángel Latre y Javier Martínez
  * Última revisión: 26 de octubre de 2022
@@ -12,7 +12,7 @@
  *           .\4-letra-dni.exe
  *       o en Linux y macOS
  *           ./4-letra-dni
-\******************************************************************************/
+ *****************************************************************************/
 #include <iostream>
 using namespace std;
 
@@ -30,8 +30,8 @@ char letra(const unsigned dni) {
 }
 
 /*
- * Programa de ejemplo de la función anterior. Pide el DNI del usuario y escribe
- * en la pantalla su letra.
+ * Programa de ejemplo de la función anterior. Pide el DNI del usuario y
+ * muestra en pantalla la letra correspondiente.
  */
 int main() {
     cout << "Escriba su DNI sin letra: ";
