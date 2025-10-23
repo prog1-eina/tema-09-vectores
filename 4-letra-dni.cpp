@@ -23,10 +23,10 @@ using namespace std;
  */
 char letra(const unsigned dni) {
     const unsigned NUM_LETRAS = 23;
-    const char TABLA_LETRAS_NIF[NUM_LETRAS] = {'T', 'R', 'W', 'A', 'G', 'M', 
+    const char LETRAS_NIF[NUM_LETRAS] = {'T', 'R', 'W', 'A', 'G', 'M', 
             'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 
             'L', 'C', 'K', 'E'};
-    return TABLA_LETRAS_NIF[dni % NUM_LETRAS];
+    return LETRAS_NIF[dni % NUM_LETRAS];
 }
 
 /*
