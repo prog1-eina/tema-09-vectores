@@ -1,7 +1,6 @@
 /******************************************************************************
  * Curso de Programación 1. Tema 9 (vectores)
  * Autores: Miguel Ángel Latre
- * Última revisión: 23 de octubre de 2023
  * Resumen: Procedimiento que inicializa una matriz como la matriz unidad.
  * Nota: El programa completo está contenido en este fichero, por lo que puede 
  *       compilarse y ejecutarse con la extensión Code Runner de Visual Studio 

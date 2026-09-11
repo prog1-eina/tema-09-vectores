@@ -1,7 +1,6 @@
 /******************************************************************************
  * Curso de Programación 1. Tema 9 (vectores)
  * Autores: Miguel Ángel Latre
- * Última revisión: 26 de octubre de 2022
  * Resumen: Ejemplo de programa y función que utilizan un vector de datos de 
  *          tipo real para calcular la media de temperatura anual a partir de  
  *          doce temperaturas medias mensuales.
