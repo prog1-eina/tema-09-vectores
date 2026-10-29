@@ -15,7 +15,7 @@
  *****************************************************************************/
 
 const unsigned NUM_FILAS = 8;
-const unsigned NUM_COLUMNAS = 8;
+const unsigned NUM_COLUMNAS = NUM_FILAS;
 const bool AGUA = false;
 const bool BARCO = true;
 
